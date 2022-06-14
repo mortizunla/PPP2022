@@ -20,9 +20,7 @@ request.setAttribute("success", request.getParameter("success"));
 	<div class="generic-container">
 		<%@include file="../../authheader.jsp" %>
 		<div class="panel-heading"><span class="lead">Pasajero</span></div>
-		<sec:authorize access="hasRole('ADMIN')">
-        			<td><a href="<c:url value='new' />" class="btn btn-primary custom-width">Agregar</a></td>
-        	 	</sec:authorize>
+
 		<div class="panel panel-default" >
 			  <!-- Default panel contents -->
 

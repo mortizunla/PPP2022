@@ -18,7 +18,7 @@
 		<div class="panel-heading"><span class="lead">Lista de Usuarios </span></div>
 			<div class="panel panel-default">
 			  <!-- Default panel contents -->
-			  <input class="form-control" id="myInput" type="text" placeholder="Search..">
+
 		  	<table class="table table-hover" id="myTable2">
 	    		<thead>
 		      		<tr>
